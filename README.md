@@ -14,13 +14,13 @@ In this project, I utilize RGB_D camera to capture images with different poses a
 #### This sensor `RGB_D camera` is a bit noisy, much like real sensors and may have some dust.
 we have to filter and extract features to recognition them using some algorithms. See `pdf` for an extended discussion .
 
-![Filter noisies](/images/filter.png)
+![Filter noisies](/images/filtered.png)
 
 **Your point cloud after statistical outlier filtering**
 
 **Next, perform RANSAC plane fitting to segment the table in the scene**
 
-![RANSAC filter](/images/RANSAC.png)
+![RANSAC filter](/images/RANSAN.png)
 
 
 **Use the Euclidean Clustering technique to separate the objects into distinct clusters, thus completing the segmentation process.**
