@@ -1,4 +1,3 @@
-[![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 # 3D Perception
 
 In this project, I utilize RGB_D camera to capture images with different poses and then used Machine Learning(ML) SVM model to make a classifier to identify target objects in the tabletop. And used PR2-Robot to pick & place objects in corresponding drop boxes.
