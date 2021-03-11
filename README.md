@@ -2,9 +2,12 @@
 # 3D Perception
 
 In this project, I utilize RGB_D camera to capture images with different poses and then used Machine Learning(ML) SVM model to make a classifier to identify target objects in the tabletop. And used PR2-Robot to pick & place objects in corresponding drop boxes.
+
+
 ![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
 
 ***Capture the images with different poses***
+
 ![training_objects](/images/training_objects.gif)
 
 
@@ -12,16 +15,23 @@ In this project, I utilize RGB_D camera to capture images with different poses a
 we have to filter and extract features to recognition them using some algorithms. See `pdf` for an extended discussion .
 
 ![Filter noisies](/images/filter.png)
+
 **Your point cloud after statistical outlier filtering**
 
 **Next, perform RANSAC plane fitting to segment the table in the scene**
+
 ![RANSAC filter](/images/RANSAC.png)
 
+
 **Use the Euclidean Clustering technique to separate the objects into distinct clusters, thus completing the segmentation process.**
+
 ![cluster](/images/cluster.png)
 
+
 **Object Recognition using `SVM Model`.**
+
 ![object recognition](/images/object_recognition.png)
+
 
 # Project Setup
 For this setup, catkin_ws is the name of active ROS Workspace, if your workspace name is different, change the commands accordingly
