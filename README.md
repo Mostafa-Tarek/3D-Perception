@@ -15,9 +15,9 @@ So, I have to filter and extract features to recognition them using some algorit
 
 ![Filter noisies](/images/filtered.png)
 
-**Point Cloud after Statistical Outlier Filtering**
+**Point Cloud after Statistical Outlier Filtering Algorithm**
 
-**Next, Perform RandomSample (RANSAC) plane fitting to Segment the table in the scene**
+**Next, Perform RandomSample (RANSAC) plane Algorithm fitting to Segment the table in the scene**
 
 ![RANSAC filter](/images/RANSAN.png)
 
