@@ -1,6 +1,6 @@
 # 3D Perception
 
-In this project, Calibrated the RGB_D camera after that used PCL Library to filter the camera image using some algorithms, and then used the SVM model to build a classifier to identify target objects in the tabletop. Eventually, PR2-Robot picks and places objects in corresponding drop boxes.
+In this project, Calibrated the RGB_D camera after that used Point Cloud Library (PCL) to filter the camera image using some algorithms, and then used the SVM model to build a classifier to identify target objects in the tabletop. Eventually, PR2-Robot picks and places objects in corresponding drop boxes.
 
 
 ![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
