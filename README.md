@@ -10,24 +10,24 @@ In this project, I utilize RGB_D camera to capture images with different poses a
 ![training_objects](/images/training_objects.gif)
 
 
-#### This sensor `RGB_D camera` is a bit noisy, much like real sensors and may have some dust.
-we have to filter and extract features to recognition them using some algorithms. See `pdf` for an extended discussion .
+### This sensor `RGB_D camera` is a bit noisy, much like real sensors and may have some dust.
+So, I have to filter and extract features to recognition them using some algorithms. See `pdf` for an extended discussion .
 
 ![Filter noisies](/images/filtered.png)
 
-**Your point cloud after statistical outlier filtering**
+**Point Cloud after Statistical Outlier Filtering**
 
-**Next, perform RANSAC plane fitting to segment the table in the scene**
+**Next, Perform RandomSample (RANSAC) plane fitting to Segment the table in the scene**
 
 ![RANSAC filter](/images/RANSAN.png)
 
 
-**Use the Euclidean Clustering technique to separate the objects into distinct clusters, thus completing the segmentation process.**
+**Then Used the Euclidean Clustering Algorithm to separate the objects into distinct clusters, thus completing the segmentation process.**
 
 ![cluster](/images/cluster.png)
 
 
-**Object Recognition using `SVM Model`.**
+**Finally Made Object Recognition using `SVM Model`.**
 
 ![object recognition](/images/object_recognition.png)
 
