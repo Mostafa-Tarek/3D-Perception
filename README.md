@@ -5,7 +5,7 @@ The goal of this projec was to make an object detection using RGB_D camera that 
 
 ![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
 
-***Capture the images with different poses***
+***Capture the images with different poses for training & collecting datasets***
 
 ![training_objects](/images/training_objects.gif)
 
